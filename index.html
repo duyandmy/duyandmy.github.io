@@ -164,6 +164,8 @@
             "Du a mai đẹt ti nì",
             "Cho mình xin 3 quả hột dịt lộn rồi mình trả lời bạn mình ơi. :)))",
             "Tôi đao đớn, tôi gục ngã",
+            "Hỏi câu khác đi nè. :)))",
+            "Hong biết nữa hong có nhớ",
             "Cú tui cú tui"
         ];
         let inp = document.getElementById("question");
@@ -176,7 +178,7 @@
         }
 
         function ans() {
-            let i = Math.floor(Math.random() * 8);
+            let i = Math.floor(Math.random() * 10);
             quest.innerHTML = inp.value;
             if (inp.value == "" || i == 0) {
                 disp.innerHTML = "";
